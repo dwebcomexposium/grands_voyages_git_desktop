@@ -265,8 +265,8 @@ header.site-banner .inside .social {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    border: 2px solid #ffffff;
-    background-color: rgba(210, 231, 225, 0.3);
+    border: 2px solid #d2e7e1;
+    background-color: rgba(255, 255, 255, 0.3);
     z-index: 20;
 }
 
@@ -282,19 +282,19 @@ header.site-banner .inside .social a {
 }
 
 header.site-banner .inside .social a:hover {
-    background-color: #ffffff;
+          /* background-color: $grey; */
 }
 
 header.site-banner .inside .social a:hover.twitter:before {
-    background-position: -1371px -1096px;
+    background-position: -990px -1132px;
 }
 
 header.site-banner .inside .social a:hover.fb:before {
-    background-position: -789px -538px;
+    background-position: -813px -538px;
 }
 
 header.site-banner .inside .social a:hover.insta:before {
-    background-position: -765px -574px;
+    background-position: -801px -574px;
 }
 
 header.site-banner .inside .social a:before {
@@ -312,29 +312,32 @@ header.site-banner .inside .social a:before {
 }
 
 header.site-banner .inside .social a.twitter {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #d2e7e1;
 }
 
 header.site-banner .inside .social a.twitter:before {
     width: 31px;
     height: 26px;
-    background-position: -1336px -1132px;
+            /* background-position: -1336px -1132px; */
+    background-position: -1371px -1096px;
 }
 
 header.site-banner .inside .social a.fb:before {
     width: 14px;
     height: 26px;
-    background-position: -837px -538px;
+          /* background-position: -837px -538px; */
+    background-position: -789px -538px;
 }
 
 header.site-banner .inside .social a.insta {
-    border-top: 2px solid #ffffff;
+    border-top: 2px solid #d2e7e1;
 }
 
 header.site-banner .inside .social a.insta:before {
     width: 26px;
     height: 26px;
-    background-position: -1169px -574px;
+            /* background-position: -1169px -574px; */
+    background-position: -765px -574px;
 }
 
 header.site-banner .inside .block.block-small.quicklinks {
@@ -1300,6 +1303,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 30px;
+    background-position: center;
     background-color: #ffffff;
 }
 
@@ -1494,7 +1498,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .site-footer .inside .footer_txt .logo .logo_comexposium {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .site-footer .inside .quicklinks {
@@ -1909,6 +1913,10 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .body-corpo.article #main .custom_bloc_02 .item_container .item {
     position: relative;
+}
+
+.body-corpo.article #main .custom_bloc_02 .item_container .item:first-child {
+    padding-right: 30px;
 }
 
 .body-corpo.article #main .custom_bloc_02 .item_container .item .cat_html {
