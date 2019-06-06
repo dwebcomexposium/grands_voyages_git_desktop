@@ -1,9 +1,11 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: 'Avenir';
-    src: url("fonts/fonts-fk/Avenir-Roman.eot");
-    src: url("fonts/fonts-fk/Avenir-Roman.eot?#iefix") format("embedded-opentype"), url("fonts/fonts-fk/Avenir-Roman.woff2") format("woff2"), url("fonts/fonts-fk/Avenir-Roman.woff") format("woff"), url("fonts/fonts-fk/Avenir-Roman.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
+  src: url("fonts/fonts-fk/Avenir-Roman.eot");
+  src: url("fonts/fonts-fk/Avenir-Roman.eot?#iefix") format("embedded-opentype"), url("fonts/fonts-fk/Avenir-Roman.woff2") format("woff2"), url("fonts/fonts-fk/Avenir-Roman.woff") format("woff"), url("fonts/fonts-fk/Avenir-Roman.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
@@ -65,6 +67,11 @@ body {
     background-color: #ffffff;
 }
 
+p {
+    line-height: 25px;
+    font-size: 20px;
+}
+
 .site-wrapper, .wrapper {
     max-width: 1700px;
     margin: 0 auto;
@@ -78,7 +85,7 @@ a {
     cursor: pointer;
 }
 
-a.lien1, a.lien2, a.externe {
+a.lien1, a.lien2, a.externe, a.btn-primary {
     padding: 10px 20px;
     border: none;
     font-family: "Avenir", sans-serif;
@@ -89,15 +96,15 @@ a.lien1, a.lien2, a.externe {
     display: inline-block;
 }
 
-a.lien1, a.lien2 {
+a.lien1, a.lien2, a.btn-primary {
     background-color: #d2e7e1;
-    color: #4a4a4a !important;
+    color: #4a4a4a;
     border: 1px solid #d2e7e1;
     text-transform: uppercase;
 }
 
-a.lien1:hover, a.lien2:hover {
-    color: #d2e7e1 !important;
+a.lien1:hover, a.lien2:hover, a.btn-primary:hover {
+    color: #d2e7e1;
     background-color: rgba(255, 255, 255, 0.3);
     border-color: #d2e7e1;
 }
@@ -105,7 +112,7 @@ a.lien1:hover, a.lien2:hover {
 a.externe {
     padding: 0;
     background-color: transparent;
-    color: #004585 !important;
+    color: #004585;
     text-decoration: underline;
     position: relative;
 }
@@ -125,7 +132,7 @@ a.externe:after {
 }
 
 a.externe:hover {
-    color: #004585 !important;
+    color: #004585;
     background-color: rgba(255, 255, 255, 0.3);
     border-color: #d2e7e1;
 }
@@ -215,6 +222,58 @@ h1, h2, h3, h4, h5, h6 {
     100% {
         left: -25px;
         top: 100px;
+    }
+}
+
+@-webkit-keyframes cloud_2 {
+    0% {
+        left: 50%;
+    }
+
+    50% {
+        left: 60%;
+    }
+
+    100% {
+        left: 50%;
+    }
+}
+
+@keyframes cloud_2 {
+    0% {
+        left: 50%;
+    }
+
+    50% {
+        left: 60%;
+    }
+
+    100% {
+        left: 50%;
+    }
+}
+
+@-webkit-keyframes plane {
+    0% {
+        top: -300px;
+        opacity: 1;
+    }
+
+    100% {
+        top: -250px;
+        opacity: 0;
+    }
+}
+
+@keyframes plane {
+    0% {
+        top: -300px;
+        opacity: 1;
+    }
+
+    100% {
+        top: -250px;
+        opacity: 0;
     }
 }
 
@@ -350,6 +409,7 @@ header.site-banner .inside .block.block-small.quicklinks .ql-list {
     display: flex;
     width: 100%;
     position: relative;
+    z-index: 10;
         /* TRAIT DE SEPARATION TITLE */
 }
 
@@ -384,6 +444,7 @@ header.site-banner .inside .block.block-small.quicklinks .ql-list .ql-item a {
     text-transform: uppercase;
     background-color: transparent;
     border: none;
+    padding-left: 30px;
 }
 
 header.site-banner .inside .block.block-small.quicklinks .ql-list .ql-item a:before {
@@ -432,6 +493,7 @@ header.site-banner .inside #cxpmClientAccountWidget {
     position: absolute;
     right: 30px;
     top: 30px;
+    z-index: 10;
 }
 
 header.site-banner .inside #cxpmClientAccountWidget .widget-text {
@@ -1303,7 +1365,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 30px;
-    background-position: center;
+    background-position: bottom;
     background-color: #ffffff;
 }
 
@@ -1520,6 +1582,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     background-color: transparent;
     font-family: "Avenir", sans-serif;
     border: none;
+    color: #ffffff;
 }
 
 .site-footer .inside .quicklinks .ql-list .ql-item .btn-primary:hover {
@@ -1956,4 +2019,813 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .body-corpo.article #main .custom_bloc_02 .item_container .item .cat_html:hover .rubrique.detente:before {
     background-position: -1508px -169px;
+}
+
+.front {
+    overflow-x: hidden;
+}
+
+.front:after {
+    content: '';
+    position: absolute;
+    background-image: url(img/avion_road.png);
+    width: 1518px;
+    height: 8455px;
+    z-index: -1;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 1000px;
+    z-index: -2;
+}
+
+.front #main {
+    margin-top: -143px;
+    overflow: hidden;
+}
+
+.front #main .site-wrapper {
+      /* GENERAL */
+      /* BLOC HEADER */
+      /* BLOC LIENS */
+      /* PREPAREZ DES MAINTENANT */
+      /* NOS INSPIRATIONS VOYAGES */
+      /* TROUVER LE VOYAGE DE VOS REVES */
+      /* DÉCOUVREZ LA LISTE DES EXPOSANTS */
+      /* NOS OFFRES VOYAGES DU MOMENT */
+}
+
+.front #main .site-wrapper .article-focus {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.front #main .site-wrapper .article-focus:first-of-type {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    z-index: 0;
+}
+
+.front #main .site-wrapper .article-focus:first-of-type:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    background-image: url("img/header_home.jpg");
+    background-position: center;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: -1;
+}
+
+.front #main .site-wrapper .article-focus:first-of-type:before {
+    content: '';
+    background-image: url("img/cloud_home.png");
+    width: 100vw;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    bottom: 0;
+          /* animation: cloud_2 8s infinite; */
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    overflow-x: hidden;
+}
+
+.front #main .site-wrapper .article-focus:first-of-type .af-title, .front #main .site-wrapper .article-focus:first-of-type p {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.front #main .site-wrapper .article-focus:first-of-type .af-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 37px;
+    line-height: 47px;
+}
+
+.front #main .site-wrapper .article-focus:first-of-type p {
+    display: none;
+}
+
+.front #main .site-wrapper .article-focus:first-of-type p.txtright {
+    display: block;
+    top: -webkit-calc(40% + 200px);
+    top: calc(40% + 200px);
+    max-width: 350px;
+}
+
+.front #main .site-wrapper .article-focus:first-of-type p.txtright a {
+    padding: 30px 10px;
+    font-size: 20px;
+}
+
+.front #main .site-wrapper .quicklinks {
+    position: relative;
+    z-index: 1;
+}
+
+.front #main .site-wrapper .quicklinks:after {
+    background-image: url("img/avion_scroll.png");
+    opacity: 1;
+    width: 67px;
+    height: 159px;
+    content: '';
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+    top: -300px;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-animation: plane 3s infinite;
+    animation: plane 3s infinite;
+}
+
+.front #main .site-wrapper .quicklinks .ql-list .ql-item {
+    position: absolute;
+}
+
+.front #main .site-wrapper .quicklinks .ql-list .ql-item a {
+    color: #4a4a4a;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    text-decoration: underline;
+}
+
+.front #main .site-wrapper .quicklinks .ql-list .ql-item a:hover {
+    color: #d2e7e1;
+}
+
+.front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744444 {
+    top: 100px;
+    left: 280px;
+}
+
+.front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744445 {
+    top: 500px;
+    left: 520px;
+}
+
+.front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744446 {
+    top: 285px;
+    left: 340px;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(3) * {
+    max-width: 50%;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(3) .af-title {
+    text-transform: uppercase;
+    font-size: 37px;
+    text-align: right;
+    padding-bottom: 100px;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(3) p {
+    text-align: right;
+          /* margin-bottom: 50px; */
+    margin-top: 0;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(3) p.txtright {
+            /* padding-bottom: 50px; */
+    margin-top: 50px;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(3) p.txtright a {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    padding: 30px 50px;
+    padding-right: 76px;
+    position: relative;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(3) p.txtright a:after {
+    content: '';
+    width: 26px;
+    height: 26px;
+    background-position: -1340px -598px;
+    right: 25px;
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    top: 50%;
+    background-image: url("img/spritesheet.png");
+    background-repeat: no-repeat;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(3) p.txtright a:hover:after {
+    background-position: -1304px -598px;
+}
+
+.front #main .site-wrapper .list-articles {
+    width: 100%;
+    height: 4791px;
+    position: relative;
+    z-index: 1;
+    margin-top: 500px;
+    z-index: 0;
+}
+
+.front #main .site-wrapper .list-articles:after, .front #main .site-wrapper .list-articles:before {
+    content: '';
+    position: absolute;
+    top: -200px;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: -1;
+}
+
+.front #main .site-wrapper .list-articles:after {
+    background-image: url("img/home_bloc_01.jpg");
+    height: 100%;
+}
+
+.front #main .site-wrapper .list-articles .main-title-with-link {
+    height: 320px;
+    max-width: 50%;
+    background-color: transparent;
+    padding-top: 40px;
+    border: none;
+}
+
+.front #main .site-wrapper .list-articles .main-title-with-link h2 {
+    text-transform: uppercase;
+    font-size: 37px;
+    padding-bottom: 100px;
+    color: #4a4a4a;
+    font-family: "Avenir", sans-serif;
+    max-width: 50%;
+    text-align: left;
+}
+
+.front #main .site-wrapper .list-articles .la-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item {
+    border: none;
+    max-width: -webkit-calc(50% - 100px);
+    max-width: calc(50% - 100px);
+    width: 100%;
+    position: relative;
+    min-height: 770px;
+    margin-top: 180px;
+    -webkit-box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.38);
+            /* îles & plages de rêves */
+            /* Culture & Patrimoine */
+            /* Croisières & voiles */
+            /* Nature & Montagne */
+            /* Bien-être & détente */
+            /* Voyages en famille */
+            /* Voyages en amoureux */
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content {
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    max-width: 65%;
+    background-color: #d2e7e1;
+    color: #4a4a4a;
+    border: 1px solid #d2e7e1;
+    padding: 30px 50px;
+    padding-right: 80px;
+    -webkit-box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.38);
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content .la-item-title a {
+    text-transform: uppercase;
+    font-family: "Avenir", sans-serif;
+    font-size: 25px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content .la-item-title a:before {
+    content: '';
+    right: 10px;
+    position: absolute;
+    top: 40px;
+    background-image: url("img/spritesheet.png");
+    background-repeat: no-repeat;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content .la-item-title a:hover {
+    text-decoration: none;
+    color: #d2e7e1;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content .la-item-btn {
+    text-align: center;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content .la-item-btn .link-read-more {
+    font-size: 25px;
+    color: #4a4a4a;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content .la-item-btn .link-read-more:hover {
+    text-decoration: none;
+    color: #d2e7e1;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: #d2e7e1;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content:hover .la-item-title a {
+    color: #d2e7e1;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item .la-item-content:hover .la-item-btn .link-read-more {
+    color: #d2e7e1;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:first-of-type {
+    background-color: red;
+    margin-top: 0px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:first-of-type:before {
+    background-image: url("img/theme_plages.jpg");
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:first-of-type .la-item-content .la-item-title a:before {
+    width: 39px;
+    height: 44px;
+    background-position: -1201px -688px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:first-of-type .la-item-content:hover .la-item-title a:before {
+    background-position: -783px -688px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(2) {
+    background-color: blue;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(2):before {
+    background-image: url("img/theme_culture.jpg");
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(2) .la-item-content .la-item-title a:before {
+    width: 25px;
+    height: 41px;
+    background-position: -1025px -1060px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(2) .la-item-content:hover .la-item-title a:before {
+    background-position: -990px -1060px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(3) {
+    background-color: purple;
+    margin-top: 0px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(3):before {
+    background-image: url("img/theme_croisiere.jpg");
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(3) .la-item-content .la-item-title a:before {
+    width: 39px;
+    height: 39px;
+    background-position: -1406px -174px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(3) .la-item-content:hover .la-item-title a:before {
+    background-position: -1459px -125px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(4) {
+    background-color: yellow;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(4):before {
+    background-image: url("img/theme_montagne.jpg");
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(4) .la-item-content .la-item-title a:before {
+    width: 71px;
+    height: 38px;
+    background-position: -394px -688px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(4) .la-item-content:hover .la-item-title a:before {
+    background-position: -313px -688px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(5) {
+    background-color: pink;
+    margin-top: 0px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(5):before {
+    background-image: url("img/theme_detente.jpg");
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(5) .la-item-content .la-item-title a:before {
+    width: 23px;
+    height: 34px;
+    background-position: -1504px -212px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(5) .la-item-content:hover .la-item-title a:before {
+    background-position: -1508px -169px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(6) {
+    background-color: green;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(6):before {
+    background-image: url("img/theme_famille.jpg");
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(6) .la-item-content .la-item-title a:before {
+    width: 40px;
+    height: 29px;
+    background-position: -1071px -5px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(6) .la-item-content:hover .la-item-title a:before {
+    background-position: -1021px -5px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(7) {
+    background-color: gold;
+    margin-top: 0px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(7):before {
+    background-image: url("img/theme_amoureux.jpg");
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(7) .la-item-content .la-item-title a:before {
+    width: 30px;
+    height: 28px;
+    background-position: -765px -640px;
+}
+
+.front #main .site-wrapper .list-articles .la-list .la-item:nth-of-type(7) .la-item-content:hover .la-item-title a:before {
+    background-position: -725px -640px;
+}
+
+.front #main .site-wrapper .custom_fk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin-top: -550px;
+    position: relative;
+    margin-bottom: 90px;
+    height: 600px;
+}
+
+.front #main .site-wrapper .custom_fk:after {
+    content: '';
+    position: absolute;
+    background-image: url(img/home_map.png);
+    width: 1223px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 75%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.front #main .site-wrapper .custom_fk * {
+    max-width: 50%;
+}
+
+.front #main .site-wrapper .custom_fk .af-title {
+    text-transform: uppercase;
+    font-size: 37px;
+    text-align: right;
+    padding-bottom: 50px;
+    max-width: 25%;
+}
+
+.front #main .site-wrapper .custom_fk ul {
+    padding-bottom: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 25%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.front #main .site-wrapper .custom_fk ul li {
+    text-align: center;
+    width: 33.33%;
+    margin-right: 20px;
+    font-size: 23px;
+    color: rgba(74, 74, 74, 0.6);
+}
+
+.front #main .site-wrapper .custom_fk ul li:first-of-type {
+    color: rgba(210, 231, 225, 0.6);
+}
+
+.front #main .site-wrapper .custom_fk p {
+    text-align: justify;
+    max-width: 25%;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(6) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    height: 1320px;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(6):after {
+    content: '';
+    position: absolute;
+    background-image: url(img/home_bloc_02.jpg);
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: -1;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(6) * {
+    max-width: 50%;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(6) .af-title {
+    text-transform: uppercase;
+    font-size: 37px;
+    text-align: left;
+    padding-bottom: 50px;
+    max-width: 25%;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(6) p {
+    text-align: justify;
+    max-width: 25%;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(6) p.txtright {
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.front #main .site-wrapper .article-focus:nth-of-type(6) p.txtright a {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 10px;
+    font-size: 20px;
+}
+
+.front #main .site-wrapper .article-focus:last-of-type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    height: 732px;
+}
+
+.front #main .site-wrapper .article-focus:last-of-type:after {
+    content: '';
+    position: absolute;
+    background-image: url(img/home_bloc_03.jpg);
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: -1;
+}
+
+.front #main .site-wrapper .article-focus:last-of-type * {
+    max-width: 50%;
+}
+
+.front #main .site-wrapper .article-focus:last-of-type .af-title {
+    text-transform: uppercase;
+    font-size: 37px;
+    text-align: left;
+    padding-bottom: 50px;
+    max-width: 25%;
+}
+
+.front #main .site-wrapper .article-focus:last-of-type p {
+    text-align: justify;
+    max-width: 25%;
+}
+
+.front #main .site-wrapper .article-focus:last-of-type p.txtright {
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.front #main .site-wrapper .article-focus:last-of-type p.txtright a {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 1400px) {
+    .front #main .site-wrapper {
+    /* GENERAL */
+    /* BLOC HEADER */
+    /* BLOC LIENS */
+    /* PREPAREZ DES MAINTENANT */
+    /* NOS INSPIRATIONS VOYAGES */
+    /* TROUVER LE VOYAGE DE VOS REVES */
+    /* DÉCOUVREZ LA LISTE DES EXPOSANTS */
+    /* NOS OFFRES VOYAGES DU MOMENT */
+    }
+
+    .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744444 {
+        top: 100px;
+        left: 280px;
+    }
+
+    .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744445 {
+        top: 500px;
+        left: 520px;
+    }
+
+    .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744446 {
+        top: 285px;
+        left: 340px;
+    }
+
+    .front #main .site-wrapper .list-articles .la-list .la-item {
+      /* îles & plages de rêves */
+      /* Culture & Patrimoine */
+      /* Croisières & voiles */
+      /* Nature & Montagne */
+      /* Bien-être & détente */
+      /* Voyages en famille */
+      /* Voyages en amoureux */
+    }
+
+    .front #main .site-wrapper .list-articles .la-list .la-item .la-item-content {
+        max-width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        width: 100%;
+        padding-right: 50px;
+    }
 }
