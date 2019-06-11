@@ -3013,11 +3013,10 @@ header.site-banner.is-stuck .inside .global-search-form {
 .exposant .global-wrapper header.site-banner {
     width: 100%;
     height: 700px;
-    position: relative;
     z-index: 0;
 }
 
-.exposant .global-wrapper header.site-banner:after {
+.exposant .global-wrapper header.site-banner:before {
     content: '';
     position: absolute;
     top: 0;
@@ -3033,6 +3032,27 @@ header.site-banner.is-stuck .inside .global-search-form {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     z-index: -1;
+}
+
+.exposant .global-wrapper header.site-banner:after {
+    content: '';
+    background-image: url("img/cloud.png");
+    width: -webkit-calc(100% + 100px);
+    width: calc(100% + 100px);
+    height: 1164px;
+    background-repeat: no-repeat;
+    left: -25px;
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+    -webkit-animation: cloud 8s infinite;
+    animation: cloud 8s infinite;
+    background-size: cover;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    overflow-x: hidden;
 }
 
 .exposant .block-page.edito.mod-catal .inside h1 {
@@ -3140,7 +3160,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     background-image: url("img/spritesheet.png");
     padding: 0px;
     border: none;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 .exposant .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons button:nth-of-type(1) i {
@@ -3152,7 +3172,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .exposant .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons button:nth-of-type(2) {
-    background: #f4f4f4;
+    background: #ffffff;
     color: #d2e7e1;
     border-bottom: none;
     padding-left: 72px;
@@ -3178,4 +3198,98 @@ header.site-banner.is-stuck .inside .global-search-form {
 .exposant .pagination.mod-catal .pagin-item a {
     text-decoration: none;
     color: #4a4a4a;
+}
+
+.partner {
+  /*EN TETE*/
+}
+
+.partner .global-wrapper header.site-banner {
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+}
+
+.partner .global-wrapper header.site-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/header_exposant.png");
+    background-position: center;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: -1;
+}
+
+.partner .global-wrapper header.site-banner:after {
+    content: '';
+    background-image: url("img/cloud.png");
+    width: -webkit-calc(100% + 100px);
+    width: calc(100% + 100px);
+    height: 1164px;
+    background-repeat: no-repeat;
+    left: -25px;
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+    -webkit-animation: cloud 8s infinite;
+    animation: cloud 8s infinite;
+    background-size: cover;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    overflow-x: hidden;
+}
+
+.partner .global-wrapper .block.block-page.partner-list h1 {
+    position: absolute;
+    top: -380px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    font-size: 2rem;
+}
+
+.partner .global-wrapper .block.block-page.partner-list .pl-item-group {
+    width: 100%;
+    text-align: center;
+}
+
+.partner .global-wrapper .block.block-page.partner-list .pl-item-group .pl-item {
+    display: inline-block;
+    width: 48%;
+    border-bottom: none;
+}
+
+.partner .global-wrapper .block.block-page.partner-list .pl-item-group .pl-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.partner .global-wrapper .block.block-page.partner-list .pl-item-group .pl-item .pl-item-content .ezxmltext-field p {
+    padding-bottom: 50px;
+}
+
+.partner .global-wrapper .block.block-page.partner-list .pl-item-group .pl-item .pl-item-content .pl-item-read-more .link-read-more {
+    text-decoration: none;
+    color: #000000;
+    background-color: #d2e7e1;
+    padding: 20px;
+}
+
+.partner .global-wrapper .block.block-page.partner-list .pl-item-group .pl-item .pl-item-content .pl-item-read-more .link-read-more:hover {
+    color: #d2e7e1;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: #d2e7e1;
 }
