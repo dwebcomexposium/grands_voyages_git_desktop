@@ -3348,7 +3348,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal .esf-form-zone {
     margin-bottom: 22px;
-    border: 2px solid silver;
+    border: 2px solid #979797;
     border-radius: 0;
     padding: 2.7rem 4.5rem 2.7rem 4.5rem;
     background-color: transparent;
@@ -3358,22 +3358,32 @@ header.site-banner.is-stuck .inside .global-search-form {
     font-family: "Avenir LT Std 65", sans-serif;
     font-weight: 200;
     text-transform: uppercase;
+    font-size: 30px;
+    color: #4a4a4a;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal .esf-form-zone .esf-search-line #esf_search_on {
-    border: 1px solid rgba(74, 74, 74, 0.3);
+    border: 1px solid #979797;
     max-width: 16rem;
 }
 
+.catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal .esf-form-zone .esf-search-line #esf_search_on option {
+    font-family: "Avenir", sans-serif;
+    color: #4a4a4a;
+}
+
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal .esf-form-zone .esf-search-line #esf_simple_search {
-    border: 1px solid rgba(74, 74, 74, 0.3);
+    border: 1px solid #979797;
     border-radius: 0 2px 2px 0;
     margin-left: 16px;
     margin-right: 5rem;
+    color: #4a4a4a;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal .esf-form-zone .esf-search-line .esf-search-plus {
-    color: #000000;
+    color: #4a4a4a;
+    font-family: "Avenir LT Std 65", sans-serif;
+    margin-right: 84px;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal .esf-form-zone .esf-search-line .esf-search-plus .esf-search-plus-txt {
@@ -3381,6 +3391,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal .esf-form-zone .esf-search-line #esf-btn-search {
+    color: #4a4a4a;
     padding: 10px 20px;
     border: none;
     font-family: "Avenir LT Std 65", sans-serif;
@@ -3393,7 +3404,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     color: #4a4a4a;
     border: 1px solid #d2e7e1;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal .esf-form-zone .esf-search-line #esf-btn-search:hover {
@@ -3428,6 +3439,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal .esf-form-zone .esf-as-header .esf-as-title {
     color: #ffffff;
+    font-size: 20px;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal #esf-results-zone {
@@ -3453,7 +3465,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     max-width: calc(25% - 10px);
     width: 100%;
     font-weight: 100;
-    font-size: 17px;
+    font-size: 30px;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list {
@@ -3472,7 +3484,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     margin-right: 5px;
     font-family: "Avenir", sans-serif;
     font-weight: 100;
-    font-size: 17px;
+    font-size: 27px;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .exhibitor-search-form.mod-catal #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list li a {
@@ -3488,8 +3500,13 @@ header.site-banner.is-stuck .inside .global-search-form {
     text-decoration: none;
 }
 
+.catalogue.exposant #main .site-wrapper.wrapper .crs-select.form-select {
+    border: 1px solid #979797;
+    padding: 5px;
+}
+
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item {
-    border-bottom: 2px solid #e3e9ea;
+    border-bottom: 2px solid #979797;
     padding: 3rem;
 }
 
@@ -3513,7 +3530,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     background-image: url("img/spritesheet.png");
     padding: 0px;
     border: none;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons button:nth-of-type(1) i {
@@ -3525,11 +3542,13 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons button:nth-of-type(2) {
-    background: #ffffff;
+    background: 0;
     color: #d2e7e1;
     border-bottom: none;
     padding-left: 72px;
     padding-top: 14px;
+    font-size: 20px;
+    font-family: "Avenir LT Std 65", sans-serif;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons button:nth-of-type(2) i {
@@ -3538,7 +3557,9 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-title a {
     font-family: "Avenir LT Std 65", sans-serif;
-    font-size: 20px;
+    font-size: 33px;
+    color: #4a4a4a;
+    line-height: 1.2;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-title a:hover {
@@ -3557,8 +3578,15 @@ header.site-banner.is-stuck .inside .global-search-form {
     display: none;
 }
 
+.catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-txt {
+    font-size: 20px;
+    color: #4a4a4a;
+    padding-top: 2.7rem;
+}
+
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-stand .catal-ex-item-stand-title {
     font-family: "Avenir", sans-serif;
+    font-size: 20px;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-stand .catal-ex-item-stand-list {
@@ -3566,7 +3594,13 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-stand .catal-ex-item-stand-list .catal-ex-item-stand-item {
+    font-size: 20px;
     font-family: "Avenir", sans-serif;
+    color: #4a4a4a;
+}
+
+.catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-stand .catal-ex-item-stand-list .catal-ex-item-stand-item .icon-catal.icon-catal-localisation {
+    color: #4a4a4a;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .pagination.mod-catal {
@@ -3577,13 +3611,17 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .pagination.mod-catal .pagin-item.is-active a {
-    background-color: #f4f4f4;
+    background-color: transparent;
+    font-family: "Avenir", sans-serif;
     border-bottom: 4px solid #4a4a4a;
+    font-size: 30px;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .pagination.mod-catal .pagin-item a {
     text-decoration: none;
     color: #4a4a4a;
+    font-family: "Avenir", sans-serif;
+    font-size: 30px;
 }
 
 .partner {
@@ -3684,69 +3722,71 @@ header.site-banner.is-stuck .inside .global-search-form {
     border-color: #d2e7e1;
 }
 
-.error404 .global-wrapper header.site-banner {
-    width: 100%;
-    height: 700px;
-    overflow: hidden;
-    z-index: 0;
-}
-
-.error404 .global-wrapper header.site-banner:before {
+.error404 .global-wrapper #main .site-wrapper.wrapper:after {
     content: '';
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("img/header_404.png");
-    background-position: center;
-    background-size: cover;
+    background-image: url("img/cloud.png");
+    width: -webkit-calc(100vw + 25px);
+    width: calc(100vw + 25px);
+    height: 1164px;
+    background-repeat: no-repeat;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    z-index: -1;
-}
-
-.error404 .global-wrapper header.site-banner:after {
-    content: '';
-    background-image: url("img/cloud.png");
-    width: -webkit-calc(100% + 100px);
-    width: calc(100% + 100px);
-    height: 1164px;
-    background-repeat: no-repeat;
-    left: -25px;
     position: absolute;
     z-index: -1;
-    top: 250px;
-    -webkit-animation: cloud_3 8s infinite;
-    animation: cloud_3 8s infinite;
+    top: 150px;
+    -webkit-animation: cloud_4 8s infinite;
+    animation: cloud_4 8s infinite;
     background-size: cover;
     transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
-    overflow-x: hidden;
 }
 
-.error404 .global-wrapper .site-wrapper.wrapper .block.block-page.error-page .inside.ep-intro .main-title {
-    color: #ffffff;
+.error404 .global-wrapper #main .site-wrapper.wrapper:before {
+    content: '';
     position: absolute;
-    top: -380px;
+    top: -150px;
+    width: 100vw;
+    height: 682px;
+    background-image: url("img/header_404.png");
+    background-position: center;
+    background-repeat: none;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+    z-index: -1;
+}
+
+.error404 .global-wrapper #main .site-wrapper.wrapper .block.block-page.error-page {
+    padding-top: 565px;
+}
+
+.error404 .global-wrapper #main .site-wrapper.wrapper .block.block-page.error-page .inside.ep-intro .main-title {
+    border-bottom: none;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: #ffffff;
     font-family: "Avenir", sans-serif;
     font-size: 37px;
     line-height: 47px;
     text-align: center;
 }
 
-.error404 .global-wrapper .site-wrapper.wrapper .block.block-page.error-page .inside.ep-intro .intro .ezxmltext-field #eztoc_1_1 {
+.error404 .global-wrapper #main .site-wrapper.wrapper .block.block-page.error-page .inside.ep-intro .intro .ezxmltext-field #eztoc_1_1 {
     position: absolute;
     top: -300px;
     left: 50%;
@@ -3764,11 +3804,11 @@ header.site-banner.is-stuck .inside .global-search-form {
     display: inline-block;
 }
 
-.error404 .global-wrapper .site-wrapper.wrapper .block.block-page.error-page .inside.ep-intro .intro .ezxmltext-field h2 {
+.error404 .global-wrapper #main .site-wrapper.wrapper .block.block-page.error-page .inside.ep-intro .intro .ezxmltext-field h2 {
     display: none;
 }
 
-.error404 .global-wrapper .inside.ep-form-wrap {
+.error404 .global-wrapper #main .inside.ep-form-wrap {
     display: none;
 }
 
@@ -3996,6 +4036,10 @@ header.site-banner.is-stuck .inside .global-search-form {
     border-bottom: none;
 }
 
+.search {
+    font-family: "Avenir", sans-serif;
+}
+
 .search #main:after {
     content: '';
     background-image: url("img/cloud.png");
@@ -4059,6 +4103,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     width: 97%;
     display: inline-block;
     padding: 1.5rem;
+    font-size: 22px;
 }
 
 .search #main .site-wrapper.wrapper .block.block-page.search-result .box-light .inside .sr-form .global-search-form form .gsf-fields.js-toggle-target .gsf-submit-line {
@@ -4090,10 +4135,16 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .search #main .site-wrapper.wrapper .block.block-page.search-result .box-light .inside .sr-main-title {
     line-height: 1.1;
+    font-size: 37px;
+    color: #4a4a4a;
 }
 
 .search #main .site-wrapper.wrapper .block.block-page.search-result .box-light .inside .sr-main-title .sr-term {
     display: block;
+    color: #4a4a4a;
+}
+
+.search #main .site-wrapper.wrapper .block.block-page.search-result .box-light .inside .sr-main-title .sr-nb-result {
     color: #4a4a4a;
 }
 
@@ -4102,19 +4153,28 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .search #main .site-wrapper.wrapper .block.block-page.search-result .inside .sr-group .sr-group-title {
-    font-size: 16px;
+    font-size: 20px;
     border-bottom: 4px solid #d2e7e1;
     text-transform: capitalize;
 }
 
 .search #main .site-wrapper.wrapper .block.block-page.search-result .inside .sr-group .sr-item {
+    padding-top: 2rem;
     padding-bottom: 1.7em;
-    border-bottom: 2px solid #e3e9ea;
+    border-bottom: 2px solid #979797;
+}
+
+.search #main .site-wrapper.wrapper .block.block-page.search-result .inside .sr-group .sr-item .sr-item-img {
+    margin-right: 0;
 }
 
 .search #main .site-wrapper.wrapper .block.block-page.search-result .inside .sr-group .sr-item .sr-item-content .sr-item-title {
-    font-size: 27px;
+    font-size: 33px;
     padding-bottom: 30px;
+}
+
+.search #main .site-wrapper.wrapper .block.block-page.search-result .inside .sr-group .sr-item .sr-item-content .sr-item-title a {
+    color: #4a4a4a;
 }
 
 .search #main .site-wrapper.wrapper .block.block-page.search-result .inside .sr-group .sr-item .sr-item-content .sr-item-title a:hover {
@@ -4123,5 +4183,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .search #main .site-wrapper.wrapper .block.block-page.search-result .inside .sr-group .sr-item .sr-item-content .sr-item-txt .txtcenter {
+    color: #4a4a4a;
     text-align: left;
+    font-size: 20px;
 }
