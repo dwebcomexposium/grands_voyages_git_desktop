@@ -415,7 +415,7 @@ header.site-banner .inside .social {
     -ms-flex-direction: column;
     flex-direction: column;
     border: 2px solid #d2e7e1;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: white;
     z-index: 20;
 }
 
@@ -723,7 +723,11 @@ header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item
 }
 
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-744435 {
-    margin-right: 258px;
+    margin-right: 250px;
+}
+
+header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-747179 {
+    display: none;
 }
 
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.is-open {
@@ -766,8 +770,8 @@ header.site-banner .inside .global-search-form .gsf-trigger {
     -ms-flex-align: center;
     align-items: center;
     color: #ffffff;
-    padding-right: 160px;
-    padding-top: 0;
+    padding-right: 140px;
+    padding-top: 53px;
 }
 
 header.site-banner .inside .global-search-form .gsf-trigger:hover {
@@ -787,7 +791,7 @@ header.site-banner .inside .global-search-form .gsf-fields {
     padding: 0;
     max-width: 150px;
     position: absolute;
-    top: -8px;
+    top: 48px;
     right: 0;
 }
 
@@ -885,7 +889,7 @@ header.site-banner.is-stuck .inside {
 
 header.site-banner.is-stuck .inside .logo {
     top: 20px;
-    left: 50%;
+    left: 51%;
     width: 55px;
     height: 55px;
     z-index: 4;
@@ -1204,7 +1208,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     }
 
     header.site-banner .inside .global-search-form .gsf-fields .gsf-input-line .gsf-input {
-        padding-top: 0;
+        padding-top: 52px;
         padding-bottom: 0;
     }
 
@@ -1372,7 +1376,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     }
 
     header.site-banner .inside .global-search-form .gsf-fields .gsf-input-line .gsf-input {
-        padding-top: 0;
+        padding-top: 52px;
         padding-bottom: 0;
     }
 
@@ -2161,7 +2165,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .front #main {
-    margin-top: -143px;
+    margin-top: -253px;
     overflow: hidden;
 }
 
@@ -2236,7 +2240,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 .front #main .site-wrapper .article-focus:first-of-type .af-title, .front #main .site-wrapper .article-focus:first-of-type p {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -2258,8 +2262,8 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .front #main .site-wrapper .article-focus:first-of-type p.txtright {
     display: block;
-    top: -webkit-calc(40% + 200px);
-    top: calc(40% + 200px);
+    top: -webkit-calc(47% + 200px);
+    top: calc(47% + 200px);
     max-width: 350px;
 }
 
@@ -2353,6 +2357,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     line-height: 47px;
     text-align: right;
     padding-bottom: 100px;
+    padding-top: 54px;
 }
 
 .front #main .site-wrapper .article-focus:nth-of-type(3) p {
@@ -2857,7 +2862,6 @@ header.site-banner.is-stuck .inside .global-search-form {
 .front #main .site-wrapper .article-focus:nth-of-type(6):after {
     content: '';
     position: absolute;
-    background-image: url(img/home_bloc_02.jpg);
     width: 100vw;
     height: 100%;
     background-repeat: no-repeat;
@@ -3057,6 +3061,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     justify-content: flex-end;
     margin-bottom: 0px;
     height: 732px;
+    margin-top: 20px;
 }
 
 .front #main .site-wrapper .article-focus:last-of-type:after {
@@ -3086,7 +3091,8 @@ header.site-banner.is-stuck .inside .global-search-form {
     text-transform: uppercase;
     font-size: 37px;
     text-align: left;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
+    padding-top: 20px;
     max-width: 25%;
     line-height: 47px;
 }
