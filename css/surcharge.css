@@ -1058,7 +1058,7 @@ header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu .mn-
     color: #4a4a4a;
     min-height: 0;
     font-family: "Avenir", sans-serif;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-1 a.mn-link:hover {
@@ -2446,7 +2446,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     background-repeat: no-repeat;
     top: -210px;
     z-index: 0;
-    background-position-y: -715px;
+    background-position-y: -813px;
 }
 
 .front #main .site-wrapper .list-articles .main-title-with-link {
@@ -3061,7 +3061,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     justify-content: flex-end;
     margin-bottom: 0px;
     height: 732px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .front #main .site-wrapper .article-focus:last-of-type:after {
@@ -3129,18 +3129,18 @@ header.site-banner.is-stuck .inside .global-search-form {
     }
 
     .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744444 {
-        top: 100px;
-        left: 280px;
+        top: 201px;
+        left: 183px;
     }
 
     .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744445 {
-        top: 500px;
-        left: 520px;
+        top: 600px;
+        left: 429px;
     }
 
     .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744446 {
-        top: 285px;
-        left: 340px;
+        top: 410px;
+        left: 234px;
     }
 
     .front #main .site-wrapper .list-articles:before {
