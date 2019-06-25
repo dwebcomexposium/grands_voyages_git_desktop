@@ -111,7 +111,7 @@ a.lien1, a.lien2, a.btn-primary, a.insta_cta {
     font-weight: 900;
 }
 
-a.lien1:hover, a.lien2:hover, a.btn-primary:hover, a.insta_cta:hover {
+a.lien1:hover, a.lien1:focus, a.lien1:active, a.lien2:hover, a.lien2:focus, a.lien2:active, a.btn-primary:hover, a.btn-primary:focus, a.btn-primary:active, a.insta_cta:hover, a.insta_cta:focus, a.insta_cta:active {
     color: #4a4a4a;
     background-color: #d2e7e1;
     border-color: #d2e7e1;
@@ -1867,6 +1867,10 @@ header.site-banner.is-stuck .inside .global-search-form {
     font-size: 15px;
 }
 
+.body-corpo.article #main .article-title .inside .at-content .at-publication {
+    display: none;
+}
+
 .body-corpo.article #main .article-title .inside .at-content .at-main-title {
     margin-top: 0;
     text-align: center;
@@ -2177,7 +2181,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     position: absolute;
     background-image: url("img/avion_road.png");
     width: 1518px;
-    height: 810px;
+    height: 770px;
     z-index: -1;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -2186,7 +2190,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     background-repeat: no-repeat;
     top: 920px;
     z-index: -2;
-    background-position: 0 -40px;
+    background-position: 0 0;
 }
 
 .front #main {
@@ -2344,18 +2348,18 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744444 {
-    top: 100px;
-    left: 290px;
+    top: 135px;
+    left: 18%;
 }
 
 .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744445 {
-    top: 500px;
-    left: 530px;
+    top: 530px;
+    left: 32%;
 }
 
 .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744446 {
-    top: 285px;
-    left: 330px;
+    top: 315px;
+    left: 20%;
 }
 
 .front #main .site-wrapper .article-focus:nth-of-type(3) {
@@ -2477,10 +2481,17 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .front #main .site-wrapper .list-articles .main-title-with-link {
     height: 320px;
-    max-width: 50%;
     background-color: transparent;
     padding-top: 40px;
     border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 40%;
 }
 
 .front #main .site-wrapper .list-articles .main-title-with-link h2 {
@@ -2490,7 +2501,6 @@ header.site-banner.is-stuck .inside .global-search-form {
     padding-bottom: 100px;
     color: #4a4a4a;
     font-family: "Avenir LT Std 65", sans-serif;
-    max-width: 50%;
     text-align: left;
 }
 
@@ -3184,7 +3194,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 
     .front #main .site-wrapper .list-articles .main-title-with-link {
         height: auto;
-        max-width: 70%;
+        max-width: 40%;
         padding-top: 0;
     }
 
