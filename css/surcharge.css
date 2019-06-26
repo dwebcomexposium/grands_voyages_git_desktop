@@ -1799,7 +1799,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .body-corpo.article #main .article-title {
-    margin-top: -140px;
+    margin-top: -144px;
     position: relative;
 }
 
@@ -1846,6 +1846,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 .body-corpo.article #main .article-title .inside .at-illust {
     width: 100vw;
     max-width: 1700px;
+    max-height: 700px;
 }
 
 .body-corpo.article #main .article-title .inside .at-content {
@@ -1929,7 +1930,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .body-corpo.article #main .article-content figure img {
     max-width: 100%;
-    width: 100%;
+    width: auto;
 }
 
 .body-corpo.article #main .article-content figure.fl {
@@ -2874,21 +2875,31 @@ header.site-banner.is-stuck .inside .global-search-form {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .front #main .site-wrapper .custom_fk ul li {
-    text-align: center;
-    width: 30%;
-    margin-right: 20px;
-    font-size: 23px;
+    text-align: right;
+    width: 100%;
+    margin-right: 0;
+    font-size: 20px;
     cursor: pointer !important;
     margin-bottom: 10px;
 }
 
-.front #main .site-wrapper .custom_fk ul li.active, .front #main .site-wrapper .custom_fk ul li:hover {
+.front #main .site-wrapper .custom_fk ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.front #main .site-wrapper .custom_fk ul li.active a, .front #main .site-wrapper .custom_fk ul li:hover a {
     color: rgba(210, 231, 225, 0.6);
     font-weight: 900;
     font-family: "Avenir LT Std 65", sans-serif;
@@ -3253,10 +3264,6 @@ paddi
         max-width: 90%;
     }
 
-    .front #main .site-wrapper .article-focus:nth-of-type(7) {
-        height: auto !important;
-    }
-
     .front #main .site-wrapper .article-focus:nth-of-type(7) p.txtright {
         margin-bottom: 200px;
     }
@@ -3384,16 +3391,16 @@ paddi
         max-width: 40%;
     }
 
-    .front #main .site-wrapper .article-focus:nth-of-type(6) {
+    .front #main .site-wrapper .article-focus:nth-of-type(7) {
         height: auto;
         margin-top: 200px;
     }
 
-    .front #main .site-wrapper .article-focus:nth-of-type(6) .af-title {
+    .front #main .site-wrapper .article-focus:nth-of-type(7) .af-title {
         max-width: 40%;
     }
 
-    .front #main .site-wrapper .article-focus:nth-of-type(6) p {
+    .front #main .site-wrapper .article-focus:nth-of-type(7) p {
         max-width: 40%;
     }
 
@@ -6207,6 +6214,10 @@ paddi
     margin-bottom: 20px;
 }
 
+.article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-img {
+    margin: 0;
+}
+
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-content {
     background-color: #d2e7e1;
     padding: 0;
@@ -6249,15 +6260,25 @@ paddi
     font-family: "Libre Baskerville Regular", sans-serif;
 }
 
+.article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-content .la-item-title a {
+    text-align: center;
+}
+
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-content .la-item-title a:hover {
     color: #4a4a4a;
     text-decoration: none;
 }
 
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-content .la-item-btn .link-read-more {
+    display: none;
     font-family: "Libre Baskerville Regular", sans-serif;
-    color: #4a4a4a;
-    text-decoration: none;
+    color: transparent;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
 }
 
 .article_list .list-articles .inside .cxp-pagination .grid-la-list {
