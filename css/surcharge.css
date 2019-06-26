@@ -1959,6 +1959,9 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .body-corpo.article #main .article-content figure.center, .body-corpo.contact #main .article-content figure.center {
     width: 100%;
+}
+
+.body-corpo.article #main .article-content figure.center img, .body-corpo.contact #main .article-content figure.center img {
     max-width: 50%;
 }
 
