@@ -1746,7 +1746,9 @@ header.site-banner.is-stuck .inside .global-search-form {
     position: relative;
 }
 
-.body-corpo.article .site-wrapper, .body-corpo.article .wrapper, .body-corpo.contact .site-wrapper, .body-corpo.contact .wrapper {
+.body-corpo.article .site-wrapper,
+  .body-corpo.article .wrapper, .body-corpo.contact .site-wrapper,
+  .body-corpo.contact .wrapper {
     max-width: 960px;
 }
 
@@ -6392,7 +6394,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-img {
     margin: 0;
     width: 100%;
-    max-height: 200px;
+    max-height: 300px;
     min-height: 200px;
 }
 
