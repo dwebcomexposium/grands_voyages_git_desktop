@@ -2283,6 +2283,32 @@ header.site-banner.is-stuck .inside .global-search-form {
     transform: translateY(-50%) rotate(90deg);
 }
 
+/* IE 11 */
+.no-flexboxlegacy .body-corpo.article #main figure {
+    display: block;
+}
+
+.no-flexboxlegacy .body-corpo.article #main figure img {
+    max-width: 100%;
+    width: auto;
+}
+
+.no-flexboxlegacy .body-corpo.article #main figure.fl {
+    margin-right: 50px;
+}
+
+.no-flexboxlegacy .body-corpo.article #main figure.fr {
+    margin-left: 50px;
+}
+
+.no-flexboxlegacy .body-corpo.article #main figure.center {
+    width: 100%;
+}
+
+.no-flexboxlegacy .body-corpo.article #main figure.center img {
+    max-width: 100%;
+}
+
 .body-corpo.contact {
     position: relative;
 }
