@@ -2476,7 +2476,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .front #main .site-wrapper .quicklinks {
     position: relative;
-    z-index: 1;
+    z-index: 10;
 }
 
 .front #main .site-wrapper .quicklinks:after {
@@ -3156,7 +3156,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     font-size: 37px;
     line-height: 47px;
     text-align: left;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     max-width: 25%;
     font-family: "Avenir LT Std 65", sans-serif;
 }
@@ -3408,17 +3408,16 @@ header.site-banner.is-stuck .inside .global-search-form {
 
     .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744444 {
         top: 100px;
-        left: 223px;
     }
 
     .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744445 {
-        top: 500px;
-        left: 459px;
+        top: 480px;
+        left: 30%;
     }
 
     .front #main .site-wrapper .quicklinks .ql-list .ql-item.linkid744446 {
         top: 285px;
-        left: 280px;
+        left: 17%;
     }
 
     .front #main .site-wrapper .list-articles:before {
