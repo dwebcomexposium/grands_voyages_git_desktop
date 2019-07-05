@@ -5376,6 +5376,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     justify-content: flex-end;
     margin-bottom: 0px;
     height: auto;
+    /* CONTACT */
 }
 
 .espace-pro #main .article-focus:nth-of-type(8):after {
@@ -5427,6 +5428,18 @@ header.site-banner.is-stuck .inside .global-search-form {
     max-width: 100%;
     padding: 20px;
     font-size: 20px;
+}
+
+.espace-pro #main .article-focus:nth-of-type(8) .cl-content {
+    max-width: 100%;
+}
+
+.espace-pro #main .article-focus:nth-of-type(8) .cl-content .cl-item {
+    max-width: 100%;
+}
+
+.espace-pro #main .article-focus:nth-of-type(8) .cl-content .cl-item .cl-item-email a {
+    color: #004585;
 }
 
 /* ARTICLES PRO */
