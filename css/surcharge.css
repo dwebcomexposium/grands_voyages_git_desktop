@@ -761,7 +761,11 @@ header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item
 
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-746794 {
     width: 12%;
-    margin-right: 300px;
+}
+
+header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-746795 {
+    width: 12%;
+    margin-right: 350px;
 }
 
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-747179 {
@@ -808,7 +812,7 @@ header.site-banner .inside .global-search-form .gsf-trigger {
     -ms-flex-align: center;
     align-items: center;
     color: #ffffff;
-    padding-right: 160px;
+    padding-right: 139px;
     padding-top: 0;
 }
 
@@ -1076,6 +1080,7 @@ header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu {
 
 header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item {
     width: auto;
+    margin-right: 0px;
               /* PREMIER NIVEAU */
               /* 2eme  NIVEAU */
               /* FIRST ITEM */
@@ -1143,7 +1148,7 @@ header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu .mn-
     padding-left: 1.85em;
 }
 
-header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-744435, header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-746794 {
+header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-744435, header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-746794, header.site-banner.is-stuck .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-menu-item-746795 {
     margin-right: 0;
 }
 
