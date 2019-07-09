@@ -988,7 +988,7 @@ header.site-banner.is-stuck .inside .block.block-small.quicklinks .ql-list .ql-i
     position: relative;
     color: #4a4a4a;
     font-family: "Avenir", sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
     background-color: transparent;
     border: none;
@@ -1038,7 +1038,7 @@ header.site-banner.is-stuck .inside #cxpmClientAccountWidget .widget-text {
 
 header.site-banner.is-stuck .inside #cxpmClientAccountWidget .widget-text a {
     color: #4a4a4a;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 header.site-banner.is-stuck .inside #cxpmClientAccountWidget .widget-text a:before {
@@ -1501,6 +1501,18 @@ header.site-banner.is-stuck .inside .global-search-form {
 
     header.site-banner.is-stuck .inside .global-search-form {
         display: none;
+    }
+}
+
+.espace-pro .is-stuck .mn-menu .mn-item-lvl-1 .mn-link {
+    font-size: 10px !important;
+    font-weight: bold;
+}
+
+@media (max-width: 1500px) {
+    .espace-pro .inside {
+        margin: 0px !important;
+        max-width: 1700px !important;
     }
 }
 
@@ -2371,7 +2383,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .body-corpo.contact #main .contacts-list h1 {
     position: absolute;
-    top: 16%;
+    top: 14%;
     right: 50%;
     left: 0%;
     text-align: center;
@@ -2704,7 +2716,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 .front #main .site-wrapper .list-articles:before {
     content: '';
     position: absolute;
-    background-image: url("img/avion_road.png");
+    background-image: url("img/avion_road2.png");
     width: 1518px;
     height: 8455px;
     z-index: -1;
