@@ -2308,6 +2308,9 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .body-corpo.article #main .article-navigation .an-item.an-item-next .an-item-content .an-item-title, .body-corpo.contact #main .article-navigation .an-item.an-item-next .an-item-content .an-item-title {
     text-align: right;
+    margin-left: 196px;
+    display: inline-block;
+    width: 100%;
 }
 
 .body-corpo.article #main .article-navigation .an-item.an-item-next .an-item-content .an-item-publication, .body-corpo.contact #main .article-navigation .an-item.an-item-next .an-item-content .an-item-publication {
