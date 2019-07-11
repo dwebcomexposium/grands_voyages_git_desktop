@@ -728,6 +728,10 @@ header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item
     background-color: transparent;
 }
 
+header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-1 a.mn-link .mn-link-text {
+    text-align: left;
+}
+
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-1 a.mn-link .mn-link-text:before {
     display: none;
 }
