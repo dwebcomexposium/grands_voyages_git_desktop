@@ -2342,6 +2342,14 @@ header.site-banner.is-stuck .inside .global-search-form {
     opacity: 0.6;
 }
 
+.body-corpo.article #main .article-navigation .an-item .an-item-link:hover, .body-corpo.article #main .article-navigation .an-item .an-item-link:focus, .body-corpo.contact #main .article-navigation .an-item .an-item-link:hover, .body-corpo.contact #main .article-navigation .an-item .an-item-link:focus {
+    color: #004585;
+}
+
+.body-corpo.article #main .article-navigation .an-item .an-item-content .an-item-title, .body-corpo.contact #main .article-navigation .an-item .an-item-content .an-item-title {
+    margin-left: 0;
+}
+
 .body-corpo.article #main .article-navigation .an-item .an-item-content .an-item-publication, .body-corpo.contact #main .article-navigation .an-item .an-item-content .an-item-publication {
     display: none;
 }
@@ -2464,6 +2472,11 @@ header.site-banner.is-stuck .inside .global-search-form {
     width: 100%;
     color: #ffffff;
     font-weight: 100;
+    font-family: "Avenir", sans-serif;
+}
+
+.body-corpo.contact.espace-pro #main .article-title {
+    margin-top: -135px;
 }
 
 .front {
