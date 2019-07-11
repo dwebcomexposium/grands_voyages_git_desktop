@@ -4923,9 +4923,11 @@ header.site-banner.is-stuck .inside .global-search-form {
           padding: 20px;
           font-size: 20px; }
   .espace-pro #main .participation_block h1 {
-    font-weight: 100;
+    font-weight: 900;
     text-align: center;
-    font-family: "Avenir", sans-serif; }
+    font-family: "Avenir", sans-serif;
+    font-size: 27px;
+    line-height: 37px; }
   .espace-pro #main .participation_block .participation {
     position: relative;
     z-index: 1;
@@ -5065,7 +5067,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     .espace-pro #main .quicklinks .block-title {
       color: #ffffff;
       font-family: "Avenir", sans-serif;
-      font-weight: 100;
+      font-weight: 900;
       text-align: center;
       border: none;
       text-transform: uppercase;
@@ -5244,7 +5246,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .espace-pro #main .list-articles:nth-of-type(4) .inside .main-title-with-link .main-title, .espace-pro #main .list-articles:nth-of-type(5) .inside .main-title-with-link .main-title {
     font-family: "Avenir", sans-serif;
-    font-weight: 100;
+    font-weight: 900;
     color: #4a4a4a;
     text-align: center;
 }
@@ -5374,9 +5376,11 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .espace-pro #main .participation_reussite_block h1 {
-    font-weight: 100;
+    font-weight: 900;
     text-align: center;
     font-family: "Avenir", sans-serif;
+    font-size: 27px;
+    line-height: 37px;
 }
 
 .espace-pro #main .participation_reussite_block .participation {
@@ -5480,9 +5484,11 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .espace-pro #main .list-articles:nth-of-type(7) .inside .main-title-with-link .main-title {
     font-family: "Avenir", sans-serif;
-    font-weight: 100;
+    font-weight: 900;
     color: #4a4a4a;
     text-align: center;
+    font-size: 27px;
+    line-height: 37px;
 }
 
 .espace-pro #main .list-articles:nth-of-type(7) .inside .cxp-pagination .grid-la-list {
@@ -5490,10 +5496,10 @@ header.site-banner.is-stuck .inside .global-search-form {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin: 0;
 }
 
@@ -5619,11 +5625,14 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .espace-pro #main .article-focus:nth-of-type(8) .af-title {
     text-transform: uppercase;
-    font-size: 37px;
+    font-size: 27px;
     text-align: left;
     padding-bottom: 50px;
     max-width: 25%;
     line-height: 47px;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
 }
 
 .espace-pro #main .article-focus:nth-of-type(8) p {
@@ -5651,6 +5660,14 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .espace-pro #main .article-focus:nth-of-type(8) .cl-content .cl-item {
     max-width: 100%;
+}
+
+.espace-pro #main .article-focus:nth-of-type(8) .cl-content .cl-item .cl-item-content {
+    padding-left: 0;
+}
+
+.espace-pro #main .article-focus:nth-of-type(8) .cl-content .cl-item .cl-item-illust {
+    display: none;
 }
 
 .espace-pro #main .article-focus:nth-of-type(8) .cl-content .cl-item .cl-item-email a {
@@ -6745,10 +6762,10 @@ header.site-banner.is-stuck .inside .global-search-form {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin: 0;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
@@ -6782,7 +6799,9 @@ header.site-banner.is-stuck .inside .global-search-form {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-img {
@@ -6885,10 +6904,10 @@ header.site-banner.is-stuck .inside .global-search-form {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin: 0;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
@@ -6925,6 +6944,9 @@ header.site-banner.is-stuck .inside .global-search-form {
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 20px;
+    margin-bottom: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item a {
