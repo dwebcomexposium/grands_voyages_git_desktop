@@ -2372,6 +2372,18 @@ header.site-banner.is-stuck .inside .global-search-form {
     transform: translateY(-50%) rotate(90deg);
 }
 
+@media (max-width: 1500px) {
+    .article #main,
+  .contact #main {
+    /* ARTICLE TITLE */
+    }
+
+    .article #main .article-title,
+    .contact #main .article-title {
+        margin-top: -145px;
+    }
+}
+
 /* IE 11 */
 .no-flexboxlegacy .body-corpo.article #main figure {
     display: block;
