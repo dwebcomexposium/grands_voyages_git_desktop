@@ -1997,6 +1997,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     font-family: "Avenir", sans-serif;
     font-size: 37px;
     line-height: 47px;
+    font-weight: 100;
 }
 
 .body-corpo.article #main .article-intro, .body-corpo.contact #main .article-intro {
