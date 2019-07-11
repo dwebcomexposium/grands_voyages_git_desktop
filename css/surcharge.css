@@ -2013,11 +2013,12 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .body-corpo.article #main .article-intro p, .body-corpo.contact #main .article-intro p {
-    font-family: "Libre Baskerville Regular", sans-serif;
+    font-family: "Avenir", sans-serif;
     text-align: center;
-    font-size: 37px;
-    line-height: 47px;
+    font-size: 24px;
+    line-height: 34px;
     text-transform: uppercase;
+    font-weight: 900;
 }
 
 .body-corpo.article #main .article-content, .body-corpo.contact #main .article-content {
@@ -2479,7 +2480,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     font-family: "Avenir", sans-serif;
 }
 
-.body-corpo.contact.espace-pro #main .article-title {
+.body-corpo.article.espace-pro #main .article-title {
     margin-top: -135px;
 }
 
