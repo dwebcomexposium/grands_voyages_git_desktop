@@ -2446,6 +2446,14 @@ header.site-banner.is-stuck .inside .global-search-form {
     color: #004585;
 }
 
+.body-corpo.contact #main .contacts-list .cl-content .cl-item .cl-item-illust {
+    display: none;
+}
+
+.body-corpo.contact #main .contacts-list .cl-content .cl-item .cl-item-content {
+    padding-left: 0;
+}
+
 .body-corpo.contact #main .contacts-list h1 {
     position: absolute;
     top: 14%;
@@ -2454,6 +2462,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     text-align: center;
     width: 100%;
     color: #ffffff;
+    font-weight: 100;
 }
 
 .front {
@@ -6858,13 +6867,14 @@ header.site-banner.is-stuck .inside .global-search-form {
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-content .la-item-title {
     margin: 0;
     color: #ffffff;
-    font-family: "Libre Baskerville Regular", sans-serif;
+    font-family: "Avenir", sans-serif;
     white-space: nowrap;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     max-width: 90%;
     overflow: hidden;
     font-weight: 100;
+    text-transform: uppercase;
 }
 
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-content .la-item-title a {
@@ -7009,13 +7019,14 @@ header.site-banner.is-stuck .inside .global-search-form {
 .article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-title {
     margin: 0;
     color: #ffffff;
-    font-family: "Libre Baskerville Regular", sans-serif;
+    font-family: "Avenir", sans-serif;
     white-space: nowrap;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     max-width: 90%;
     overflow: hidden;
     font-weight: 100;
+    text-transform: uppercase;
 }
 
 .article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-title a:hover {
@@ -7084,4 +7095,13 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .article_list.france .list-articles .inside .main-title-with-link:after {
     background-image: url("img/header_FRANCE.jpg");
+}
+
+/* VERSION PRO */
+.article_list {
+  /* GENERIQUE */
+}
+
+.article_list .list-articles .inside .main-title-with-link {
+    margin-top: 0;
 }
