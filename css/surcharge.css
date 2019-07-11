@@ -5505,8 +5505,12 @@ header.site-banner.is-stuck .inside .global-search-form {
 
 .espace-pro #main .list-articles:nth-of-type(7) .inside .cxp-pagination .grid-la-list .gla-item {
     margin: 0;
-    width: 33.33%;
+    width: -webkit-calc(33.33% - 20px);
+    width: calc(33.33% - 20px);
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 0;
+    margin-bottom: 10px;
 }
 
 .espace-pro #main .list-articles:nth-of-type(7) .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-img {
