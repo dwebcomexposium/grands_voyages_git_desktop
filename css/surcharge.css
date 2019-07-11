@@ -5327,6 +5327,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     color: #ffffff;
     text-transform: uppercase;
     font-family: "Avenir", sans-serif;
+    font-weight: 100;
 }
 
 .espace-pro #main .list-articles:nth-of-type(4) .inside .cxp-pagination .grid-la-list .gla-item a img.gla-item-img, .espace-pro #main .list-articles:nth-of-type(5) .inside .cxp-pagination .grid-la-list .gla-item a img.gla-item-img {
@@ -5571,6 +5572,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     color: #ffffff;
     font-family: "Avenir", sans-serif;
     text-transform: uppercase;
+    font-weight: 100;
 }
 
 .espace-pro #main .list-articles:nth-of-type(7) .inside .cxp-pagination .grid-la-list .gla-item a:hover .gla-item-content {
@@ -5584,6 +5586,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 .espace-pro #main .list-articles:nth-of-type(7) .inside .cxp-pagination .grid-la-list .gla-item a:hover .gla-item-content .gla-item-title {
     color: rgba(255, 255, 255, 0.6);
     font-family: "Avenir", sans-serif;
+    font-weight: 100;
 }
 
 .espace-pro #main .article-focus:nth-of-type(8) {
@@ -7098,10 +7101,10 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 /* VERSION PRO */
-.article_list {
+.article_list.espace-pro {
   /* GENERIQUE */
 }
 
-.article_list .list-articles .inside .main-title-with-link {
+.article_list.espace-pro .list-articles .inside .main-title-with-link {
     margin-top: 0;
 }
