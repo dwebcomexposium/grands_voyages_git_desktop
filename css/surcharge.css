@@ -4357,13 +4357,12 @@ header.site-banner.is-stuck .inside .global-search-form {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    color: #4a4a4a;
+    color: #ffffff;
     font-family: "Avenir", sans-serif;
     font-size: 37px;
     line-height: 47px;
     text-align: center;
     font-weight: lighter;
-    display: none;
 }
 
 .partner #main .site-wrapper.wrapper .block.block-page.partner-list h2 {
