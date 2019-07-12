@@ -1525,7 +1525,11 @@ header.site-banner.is-stuck .inside .global-search-form {
     }
 }
 
-.espace-pro .is-stuck .mn-menu .mn-item-lvl-1 .mn-link {
+.espace-pro header.site-banner .inside .global-search-form {
+    bottom: 32px;
+}
+
+.espace-pro header.site-banner .inside .is-stuck .mn-menu .mn-item-lvl-1 .mn-link {
     font-size: 10px !important;
     font-weight: bold;
 }
