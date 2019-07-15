@@ -2408,6 +2408,8 @@ header.site-banner.is-stuck .inside .global-search-form {
 .body-corpo.article #main .article-navigation .an-item.an-item-next, .body-corpo.contact #main .article-navigation .an-item.an-item-next {
     padding-left: 0;
     padding-right: 47px;
+    position: absolute;
+    right: 0;
 }
 
 .body-corpo.article #main .article-navigation .an-item.an-item-next:before, .body-corpo.contact #main .article-navigation .an-item.an-item-next:before {
@@ -4174,7 +4176,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons {
-    margin-right: -37px;
+    margin-right: 40px;
 }
 
 .catalogue.exposant #main .site-wrapper.wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons button:nth-of-type(1) {
@@ -5410,6 +5412,10 @@ header.site-banner.is-stuck .inside .global-search-form {
     color: #ffffff;
     font-weight: 100;
     font-family: "Avenir", sans-serif;
+}
+
+.espace-pro #main .list-articles:nth-of-type(4) .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-desc *, .espace-pro #main .list-articles:nth-of-type(5) .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-desc * {
+    color: #ffffff;
 }
 
 .espace-pro #main .list-articles:nth-of-type(4) .inside .cxp-pagination .grid-la-list .gla-item a img.gla-item-img, .espace-pro #main .list-articles:nth-of-type(5) .inside .cxp-pagination .grid-la-list .gla-item a img.gla-item-img {
