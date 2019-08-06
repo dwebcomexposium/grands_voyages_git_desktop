@@ -7242,8 +7242,16 @@ header.site-banner.is-stuck .inside .global-search-form {
     color: #4a4a4a;
 }
 
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-link.previousEvent span .icon-catal.icon-catal-long-arrow-left:before {
+    color: #004585;
+}
+
 .page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-sep {
     border-left: 1px solid #4a4a4a;
+}
+
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-link.nextEvent span .icon-catal.icon-catal-long-arrow-right:after {
+    color: #004585;
 }
 
 .page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .block.block-page.edito.mod-catal .inside .catal-ex-item-buttons .btn-primary.with-icon.ac-js-switcher-remote {
