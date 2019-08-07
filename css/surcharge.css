@@ -7234,41 +7234,41 @@ header.site-banner.is-stuck .inside .global-search-form {
     padding-top: 500px;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-more-link.back_button {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-more-link.back_button, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-nav-ex.mod-catal .catal-nav-ex-more-link.back_button {
     color: #4a4a4a;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-more-link.back_button .icon-catal.icon-catal-chevrons {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-more-link.back_button .icon-catal.icon-catal-chevrons, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-nav-ex.mod-catal .catal-nav-ex-more-link.back_button .icon-catal.icon-catal-chevrons {
     color: #4a4a4a;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-link.previousEvent span .icon-catal.icon-catal-long-arrow-left:before {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-link.previousEvent span .icon-catal.icon-catal-long-arrow-left:before, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-nav-ex.mod-catal .catal-nav-ex-link.previousEvent span .icon-catal.icon-catal-long-arrow-left:before {
     color: #004585;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-sep {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-sep, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-nav-ex.mod-catal .catal-nav-ex-sep {
     border-left: 1px solid #4a4a4a;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-link.nextEvent span .icon-catal.icon-catal-long-arrow-right:before {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-nav-ex.mod-catal .catal-nav-ex-link.nextEvent span .icon-catal.icon-catal-long-arrow-right:before, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-nav-ex.mod-catal .catal-nav-ex-link.nextEvent span .icon-catal.icon-catal-long-arrow-right:before {
     color: #004585;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .block.block-page.edito.mod-catal .inside .catal-ex-item-buttons .btn-primary.with-icon.ac-js-switcher-remote {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .block.block-page.edito.mod-catal .inside .catal-ex-item-buttons .btn-primary.with-icon.ac-js-switcher-remote, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .block.block-page.edito.mod-catal .inside .catal-ex-item-buttons .btn-primary.with-icon.ac-js-switcher-remote {
     background-color: #004585;
     border-color: #004585;
     padding: 10px;
     display: inline-block;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .block.block-page.edito.mod-catal .inside .catal-ex-item-buttons .btn-primary.with-icon.js-mySelection {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .block.block-page.edito.mod-catal .inside .catal-ex-item-buttons .btn-primary.with-icon.js-mySelection, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .block.block-page.edito.mod-catal .inside .catal-ex-item-buttons .btn-primary.with-icon.js-mySelection {
     background-color: #004585;
     border-color: #004585;
     padding: 10px;
     display: inline-block;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .block.block-page.edito.mod-catal h1 {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .block.block-page.edito.mod-catal h1, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .block.block-page.edito.mod-catal h1 {
     padding-top: 0px;
     font-family: "Avenir", sans-serif;
     color: #004585;
@@ -7278,41 +7278,41 @@ header.site-banner.is-stuck .inside .global-search-form {
     font-weight: 700;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main {
     background-color: white;
     border: 1px solid #e3e9ea;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-session .catal-ed-main-stand-title.catal-ed-title {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-session .catal-ed-main-stand-title.catal-ed-title, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-session .catal-ed-main-stand-title.catal-ed-title {
     color: #004585;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-session .catal-ed-main-stand-ref {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-session .catal-ed-main-stand-ref, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-session .catal-ed-main-stand-ref {
     font-size: 16px;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-main-desc-title.catal-ed-title {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-main-desc-title.catal-ed-title, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-main-desc-title.catal-ed-title {
     color: #004585;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-activity-link {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-activity-link, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-activity-link {
     color: #000000;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-main-address {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-main-address, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-main-address {
     font-size: 16px;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-main-desc-content p {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-main-desc-content p, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .catal-ed-main-desc .catal-ed-main-desc-content p {
     font-size: 16px;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .evd-infos-type .evd-infos-type-title.evd-title {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .evd-infos-type .evd-infos-type-title.evd-title, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .evd-infos-type .evd-infos-type-title.evd-title {
     color: #004585;
     font-size: 1.8rem;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .evd-infos-type .evd-infos-type-list .event-type-li:before {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .evd-infos-type .evd-infos-type-list .event-type-li:before, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .evd-infos-type .evd-infos-type-list .event-type-li:before {
     display: none;
     list-style: none;
     content: '';
@@ -7322,7 +7322,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     margin-right: 0.5rem;
 }
 
-.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .evd-infos-type .evd-infos-type-list .event-type-li .event-link {
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .evd-infos-type .evd-infos-type-list .event-type-li .event-link, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main .evd-infos-type .evd-infos-type-list .event-type-li .event-link {
     color: #000000;
 }
 
