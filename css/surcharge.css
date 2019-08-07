@@ -7278,6 +7278,14 @@ header.site-banner.is-stuck .inside .global-search-form {
     font-weight: 700;
 }
 
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .block.block-small.list-articles.slider.cxp-swiper .slider-pagin-item.is-active, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .block.block-small.list-articles.slider.cxp-swiper .slider-pagin-item.is-active {
+    background: #004585;
+}
+
+.page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .block.block-small.list-articles.slider.cxp-swiper .btn.btn-small.slider-btn-next .icon.icon-short-arrow-right, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .block.block-small.list-articles.slider.cxp-swiper .btn.btn-small.slider-btn-next .icon.icon-short-arrow-right {
+    color: #004585;
+}
+
 .page-details.page-events.event #main .layout-2-col #zone2 .event-view-full.topic_thematiques .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main, .page-details.page-events.event #main .layout-2-col #zone2 .type_conferences .catal-ex-details.mod-catal.js-history-item.js-active-group .catal-ed-main {
     background-color: white;
     border: 1px solid #e3e9ea;
