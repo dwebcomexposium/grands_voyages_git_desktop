@@ -2090,6 +2090,11 @@ header.site-banner.is-stuck .inside .global-search-form {
     color: #ffffff;
 }
 
+.body-corpo.article #main .article-content a.lien1.externe, .body-corpo.article #main .article-content a.lien2.externe, .body-corpo.contact #main .article-content a.lien1.externe, .body-corpo.contact #main .article-content a.lien2.externe {
+    color: #004585;
+    border: none;
+}
+
 .body-corpo.article #main .article-content p.txtjustify, .body-corpo.contact #main .article-content p.txtjustify {
     text-align: justify;
 }
