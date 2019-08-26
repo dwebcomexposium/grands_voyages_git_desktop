@@ -6121,7 +6121,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .page-events #main .site-wrapper.wrapper #event_result_zone .block.block-page.mod-catal.catal-ex .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-title {
-    padding-top: 30px;
+    padding-top: 0;
     position: absolute;
     top: 0;
 }
