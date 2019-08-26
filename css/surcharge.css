@@ -2093,6 +2093,12 @@ header.site-banner.is-stuck .inside .global-search-form {
 .body-corpo.article #main .article-content a.lien1.externe, .body-corpo.article #main .article-content a.lien2.externe, .body-corpo.contact #main .article-content a.lien1.externe, .body-corpo.contact #main .article-content a.lien2.externe {
     color: #004585;
     border: none;
+    text-transform: none !important;
+    font-weight: 400 !important;
+}
+
+.body-corpo.article #main .article-content a.lien1.externe:active, .body-corpo.article #main .article-content a.lien1.externe:focus, .body-corpo.article #main .article-content a.lien2.externe:active, .body-corpo.article #main .article-content a.lien2.externe:focus, .body-corpo.contact #main .article-content a.lien1.externe:active, .body-corpo.contact #main .article-content a.lien1.externe:focus, .body-corpo.contact #main .article-content a.lien2.externe:active, .body-corpo.contact #main .article-content a.lien2.externe:focus {
+    background-color: transparent !important;
 }
 
 .body-corpo.article #main .article-content p.txtjustify, .body-corpo.contact #main .article-content p.txtjustify {
