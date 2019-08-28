@@ -6140,7 +6140,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     padding: 0;
     margin-top: 50px;
     max-height: 200px;
-    overflow-y: scroll;
+    overflow: hidden;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     margin-bottom: 50px;
@@ -6778,7 +6778,7 @@ header.site-banner.is-stuck .inside .global-search-form {
         padding: 0;
         margin-top: 60px;
         max-height: 200px;
-        overflow-y: scroll;
+        overflow: hidden;
         -o-text-overflow: ellipsis;
         text-overflow: ellipsis;
         margin-bottom: 50px;
