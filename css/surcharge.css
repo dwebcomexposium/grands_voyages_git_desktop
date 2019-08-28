@@ -6167,6 +6167,13 @@ header.site-banner.is-stuck .inside .global-search-form {
     line-height: 28px !important;
     text-align: left;
     font-family: "Avenir", sans-serif !important;
+    max-height: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    margin-top: 10px;
 }
 
 .page-events #main .site-wrapper.wrapper #event_result_zone .block.block-page.mod-catal.catal-ex .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .organizer_event {
@@ -6456,7 +6463,7 @@ header.site-banner.is-stuck .inside .global-search-form {
         padding: 0;
         margin-top: 50px;
         max-height: 200px;
-        overflow-y: scroll;
+        overflow: hidden;
         -o-text-overflow: ellipsis;
         text-overflow: ellipsis;
         margin-bottom: 50px;
