@@ -2109,8 +2109,8 @@ header.site-banner.is-stuck .inside .global-search-form {
     margin: 0;
     border: none;
     display: block;
-    width: -webkit-calc(50% - 20px);
-    width: calc(50% - 20px);
+    width: auto;
+    max-width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
