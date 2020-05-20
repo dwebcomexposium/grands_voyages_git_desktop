@@ -8417,3 +8417,59 @@ header.site-banner.is-stuck .inside .global-search-form {
     color: #000000;
     border-bottom: none;
 }
+
+/*AJUSTEMENT ESPACE PRO*/
+
+.espace-pro header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item {
+    width: 10.5%;
+}
+
+.espace-pro header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-1 a.mn-link {
+    color: #ffffff;
+    min-height: 0;
+    font-family: "Avenir", sans-serif;
+    font-size: 13px;
+}
+
+@media (max-width: 1500px){
+    header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item {
+        width: 10.5%;
+    }
+
+    .espace-pro header.site-banner .inside .global-search-form {
+        bottom: 32px;
+    }
+}
+
+
+@media (max-width: 1200px){
+
+    .espace-pro header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item {
+        width: 9.5%;
+    }
+
+    .espace-pro header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-1 a.mn-link {
+        font-size: 10px;
+    }
+
+    .espace-pro header.site-banner .inside .global-search-form {
+        bottom: 0px;
+    }
+
+}
+
+
+.espace-pro.article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content {
+    height: auto;
+    max-height: 100%;
+}
+
+.espace-pro.article_list .list-articles .inside .cxp-pagination .grid-la-list span.gla-item-desc,
+.espace-pro.article_list .list-articles .inside .cxp-pagination .grid-la-list span.gla-item-desc p {
+    color: #ffffff !important;
+    font-size: 14px !important;
+}
+
+.espace-pro.article_list .cxp-pagination {
+    padding-top: 50px;
+}
