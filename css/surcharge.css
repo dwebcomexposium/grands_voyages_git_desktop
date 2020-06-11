@@ -1526,7 +1526,7 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 .espace-pro header.site-banner .inside .global-search-form {
-    bottom: 32px;
+    bottom: 0;
 }
 
 .espace-pro header.site-banner .inside .is-stuck .mn-menu .mn-item-lvl-1 .mn-link {
@@ -8419,9 +8419,12 @@ header.site-banner.is-stuck .inside .global-search-form {
 }
 
 /*AJUSTEMENT ESPACE PRO*/
+header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-2{
+	width: 100%;
+}
 
 .espace-pro header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item {
-    width: 10.5%;
+    width: 12.5%;
 }
 
 .espace-pro header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-1 a.mn-link {
