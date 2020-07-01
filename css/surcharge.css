@@ -8418,7 +8418,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     border-bottom: none;
 }
 
-/*AJUSTEMENT ESPACE PRO*/
+/*AJUSTEMENT ESPACE PRO
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-2{
 	width: 100%;
 }
@@ -8475,4 +8475,5 @@ header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item
 
 .espace-pro.article_list .cxp-pagination {
     padding-top: 50px;
-}
+}*/
+
