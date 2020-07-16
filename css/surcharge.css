@@ -7106,7 +7106,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 130px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -7128,9 +7128,9 @@ header.site-banner.is-stuck .inside .global-search-form {
     margin: 0;
     width: 100%;
     left: 0;
-    min-height: 80px;
-    max-height: 80px;
-    bottom: -80px;
+    min-height: 120px;
+    max-height: 120px;
+    bottom: -120px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -7175,6 +7175,7 @@ header.site-banner.is-stuck .inside .global-search-form {
     overflow: hidden;
     font-weight: 100;
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
 
 .article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-title a:hover {
@@ -8477,5 +8478,15 @@ header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item
     padding-top: 50px;
 }*/
 
-.article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content{color:white}
+.article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content{
+    color:white;
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
+
+.article_list .list-articles .gla-item-content p:not(.gla-item-btn) {
+    color: white;
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
 
